@@ -1,7 +1,7 @@
 const About = (props) => {
   return (
     <aside>
-      {/* <img src={ props.image } alt="blog logo">{ props.image }</img> */}
+      <img src={ props.image } alt="blog logo">{ props.image }</img>
       <p> { props.about }</p>
     </aside>
   )
